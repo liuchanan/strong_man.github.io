@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>夜深了，我懂你</title>
+  <style>
+    body {
+      background-color: #f1f1f1;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0% {
+        color: red;
+      }
+      33% {
+        color: green;
+      }
+      66% {
+        color: blue;
+      }
+      100% {
+        color: red;
+      }
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      margin: 10px;
+    }
+    .link {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>夜深了，我懂你</h1>
+  <div class="gallery">
+    <img src="1.jpg" alt="照片1">
+    <img src="2.jpg" alt="照片2">
+    <img src="3.jpg" alt="照片3">
+  </div>
+  <div class="gallery">
+    <img src="4.jpg" alt="照片4">
+    <img src="5.jpg" alt="照片5">
+    <img src="6.jpg" alt="照片6">
+  </div>
+  <div class="link">
+    <a href="https://liuchanan.github.io/">点击这里</a>
+  </div>
+</body>
+</html>
